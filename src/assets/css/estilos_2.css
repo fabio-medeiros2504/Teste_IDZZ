@@ -1,0 +1,160 @@
+.js_tamanho_topo{
+    align-content: center;
+    text-align: center;
+}
+
+.noColumn{
+    width: 0;
+}
+
+.js_tamanho_esquerda{
+    width: 80%;
+    vertical-align: middle;
+}
+
+.js_tamanho_direita{
+    width: 20%;
+}
+
+.colTab{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    border-color: cadetblue;
+    border-collapse: collapse;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.td_marcar_odd{
+    background-color: #036103;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cab-odds{
+    background-color: beige;
+    text-align: center;
+}
+
+.td_desmarcar_odd{
+    background-color: #0c7476;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.scroll_div{
+    overflow-y: scroll;
+    height: 550px;
+}
+
+.scroll_div_jogos{
+    overflow-y: scroll;    
+    height: 475px;
+}
+
+.tamanho-fixo{
+    height: 700px;
+    overflow-y: hidden;    
+}
+
+.td_alinha_direita{
+    text-align: right;
+}
+
+.td_alinha_centro{
+    text-align: center;
+}
+
+.td_total{
+    text-align: right;
+}
+
+.title-color{
+}
+
+.panel-odd{
+    margin-bottom: -5px;
+}
+
+.list-group-odd{
+    margin-bottom: -5px;
+}
+
+.btn-cotacao{
+    width: 100%;
+}
+
+.td_hover{
+    cursor: pointer;
+}
+
+.td_placar_number{
+    width: 5%;
+}
+
+.td_tamanho_esquerda{
+    width: 50%;
+    vertical-align: middle;
+}
+
+.td_tamanho_direita{
+    width: 50%;
+}
+
+.color_tr_lista {
+    background-color: beige;
+}
+.noColumn{
+    width: 0;
+}
+.colTabO{
+    border-collapse: collapse;
+    border: 1px solid;
+    border-right-color: cadetblue;
+    border-left-color: cadetblue;
+}
+
+.posBotaoNovo {
+    margin-top: 30px;
+}
+
+table .success {
+	font-weight: bold;
+	Color: #006633;
+}
+
+table .tituloDataJogos {
+	Color: white;
+	background-color: lightseagreen;
+	font-weight: bold;
+    text-align: center;
+}
+
+table .success {
+	font-weight: bold;
+	Color: #006633;
+}
+
+table .tituloTabela {
+	Color: white;
+	background-color: steelblue;
+	font-weight: bold;
+}
+
+table .marcado {
+	color: red;
+}
+
+.vermelho {
+	color: #F00;
+}
+
+table.fixo { table-layout:fixed; }
+table.fixo td { overflow: hidden; }
+
+.table_jogos {
+    font-size: 9.5px;
+}

@@ -1,0 +1,451 @@
+.colTab{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    border-color: cadetblue;
+    border-collapse: collapse;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.back_logo{
+    background-color: darkslategray;
+}
+
+.td_impressao_tabela{
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    text-align: center;
+}
+
+.sessao_aposta_css{
+    font-size: 20px;
+}
+
+.sessao_aposta_css_red{
+    color: red;
+    font-size: 20px;
+}
+
+.sessao_aposta_css_td{
+    text-align: right;
+}
+
+.tituloDataJogos_table_print{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success_table_print{
+    color: black;
+    text-align: left;
+}
+
+.td_marcar_odd{
+    background-color: #036103;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cab-odds{
+    background-color: beige;
+    text-align: center;
+}
+
+.cab-libera{
+    background-color: floralwhite;
+    text-align: center;
+}
+
+.td_desmarcar_odd{
+    background-color: #0c7476;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.scroll_div{
+    overflow-y: scroll;
+    height: 700px;
+}
+
+.scroll_div_jogos{
+    overflow-y: scroll;    
+    height: 487px;
+}
+
+.td_alinha_direita{
+    text-align: right;
+}
+
+.td_alinha_centro{
+    text-align: center;
+}
+
+.td_total{
+    text-align: right;
+}
+
+.title-color{
+}
+
+.panel-odd{
+    margin-bottom: -5px;
+}
+
+.list-group-odd{
+    margin-bottom: -5px;
+}
+
+.btn-cotacao{
+    width: 100%;
+}
+
+.td_hover{
+    cursor: pointer;
+}
+
+.td_placar{
+    background-color: cornflowerblue;
+    color: white;    
+}
+
+.td_placar_number{
+    width: 5%;
+}
+
+.td_tamanho_esquerda{
+    width: 50%;
+    vertical-align: middle;
+}
+
+.td_tamanho_direita{
+    width: 50%;
+}
+
+.color_tr_lista {
+    background-color: beige;
+}
+
+.color_bg{
+    background-color: black;
+}
+
+.js_tamanho_topo{
+    align-content: center;
+    text-align: center;
+}
+
+.noColumn{
+    width: 0;
+}
+
+.js_tamanho_esquerda{
+    width: 80%;
+    vertical-align: middle;
+}
+
+.js_tamanho_direita{
+    width: 20%;
+}
+
+.colTabO{
+    border-collapse: collapse;
+    border: 1px solid;
+    border-right-color: cadetblue;
+    border-left-color: cadetblue;
+}
+
+@media (min-width: 1000px) {
+	.container {
+		width: 1000px;
+	}
+    
+    .exibe_botao {
+        display: none;
+    }
+}
+
+.posBotaoNovo {
+    margin-top: 30px;
+}
+
+.tamBtnPlac {
+    width: 33px;
+    padding: inherit;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.tamBtnPlac_mais {
+    width: 60px;
+    padding: inherit;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.tituloPanels{
+    background-color: steelblue;
+    color: white;
+}
+
+table .success {
+	font-weight: bold;
+	Color: #006633;
+}
+
+table .tituloDataJogos {
+	Color: white;
+	background-color: lightseagreen;
+	font-weight: bold;
+    text-align: center;
+}
+
+
+.posBtnPlac {
+    text-decoration-style: dashed;
+}
+
+.rowDestaque {
+	/*background-color: #006633;*/
+    background-color: midnightblue;
+	height: 53px;
+	padding-top: 10px;
+}
+
+.rowRodape {
+	background-color: midnightblue;
+	padding-top: 10px;
+	height: 40px;
+}
+
+@media (max-width: 430px) {
+	.rowRodape {
+		height: 60px;
+	}
+}
+
+@media print{
+	.nao_imprimir {
+		display:none;
+	}
+}
+
+.rowPrincipal {
+    background-color: steelblue;
+    min-height: 400px;
+}
+
+table .success {
+	font-weight: bold;
+	Color: #006633;
+}
+
+table .tituloTabela {
+	Color: white;
+	background-color: steelblue;
+	font-weight: bold;
+}
+
+.tituloCadastros {
+    font-size: 20px;
+    margin-left: 45%;
+}
+
+.tituloConfiguracao {
+    font-size: 20px;
+    margin-left: 38%;
+}
+
+table .marcado {
+	color: red;
+}
+
+.vermelho {
+	color: #F00;
+}
+
+table.fixo { table-layout:fixed; }
+table.fixo td { overflow: hidden; }
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{    
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 20px 0px 10px 0px;
+    background-color: midnightblue;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.day, .datepicker-switch, .prev, .next, .month, .year, .dow {
+    color: black;
+}
+
+.bordas_arredondadas{
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+     border-radius:7px;
+}
+
+.bordas_arredondadas_cima{
+    -moz-border-radius:7px 7px 0px 0px;
+    -webkit-border-radius:7px 7px 0px 0px;
+     border-radius:7px 7px 0px 0px;
+}
+
+.bordas_arredondadas_baixo{
+    -moz-border-radius:0px 0px 7px 7px;
+    -webkit-border-radius:0px 0px 7px 7px;
+     border-radius:0px 0px 7px 7px;
+}
+
+.logo_margin{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.resultados {
+    border: 2px solid;
+    border-style: outset;
+    width: 100%;
+    height: 100%;
+    min-height: 75%;
+}
+
+.ult_result {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+    float:left;
+}
+
+.background_logon{
+    background: url("../assets/img/campo_futebol.jpg");
+    color: white;
+	font-family: 'Open Sans', sans-serif;
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.alert_size {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .logout {
+        margin-right: 10px;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .table-responsive {
+        display: block;
+        position: relative;
+        width: 100%;
+    }   
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .logout {
+        margin-left: 570px;
+    }
+    
+    .table-responsive {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .logout {
+        margin-left: 293px;
+    }
+    
+    .table-responsive {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.table_jogos {
+    font-size: 9.5px;
+}
+
+.btn_liberar {
+    width: 70px;
+    font-size: 10px;
+    
+}

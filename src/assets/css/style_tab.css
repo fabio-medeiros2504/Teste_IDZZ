@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* Default Css Starts */
+@import url(css/shortcode.css);
+* {
+	padding: 0px;
+	margin: 0px;
+}
+/*
+==========================================
+				TEAM STYLE 2 Ends
+==========================================
+*/
+a:focus {
+  outline: none;
+}
+img {
+    border: 0;
+   max-width: 100%; 
+    margin-top: 5px;
+}
+.clearfix:after {
+  content: '.';
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-abas {
+  margin: 0px;
+  width: 100%;
+}
+
+/* Abas */
+.tabs-content {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.tabs-menu2 {
+  background-image: linear-gradient(to bottom, #007900, #055405 100%);
+}
+.tabs-menu2 ul li a {
+  display: block;
+  padding: 10px 17px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.tabs-menu2 li {
+    list-style: none;    
+}
+ 
+/* Menu das abas */
+.tabs-menu {
+  background-image: linear-gradient(to bottom, #12a3a5, #095f61 100%);
+}
+.tabs-menu ul {
+   list-style: none;
+}
+.tabs-menu ul li {
+  float: left;
+}
+.tabs-menu li {
+    list-style: none;
+    border-right: 1px solid #f3f3f3;
+    }
+.nonetab {
+    border: none!important;
+}
+.tabs-menu ul li a {
+  display: block;
+  padding: 10px 17px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+.tabs-menu ul li a.active-tab-menu {
+  background: #05595a;
+    color: #fafafa;
+}
+ 
+/* Conteúdo das abas */
+.tabs {
+  display: none;
+  
+}
+.first-tab {
+  display: block;
+}
+
+
+/*
+			CSS ENDS
+==========================================
+*/
