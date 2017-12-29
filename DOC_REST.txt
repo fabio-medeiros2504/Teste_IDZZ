@@ -1,0 +1,55 @@
+URL: http://localhost:8005/teste_idealizza/listaAlunosRESTFulByID
+MÉTODO: POST
+INPUT: codigo_aluno
+EXEMPLO RETORNO:
+{
+	"alunos": {
+		"id": "3",
+		"id_dados": "3",
+		"nome": "teste",
+		"data_nascimento": "",
+		"cpf": "456.111.332-97",
+		"id_cobranca": "3",
+		"logradouro": "redfdg",
+		"numero": "23",
+		"bairro": "ffdsfsdfs",
+		"cidade": "3423",
+		"cep": "43243-242",
+		"telefone": "(99) 99999-9999",
+		"id_idioma": "1",
+		"nome_idioma": "Inglês",
+		"id_status": "3",
+		"codigo_status": "A",
+		"nome_status": "Ativo",
+		"id_estado": "21",
+		"nome_estado": "Espírito Santo"
+	}
+}
+
+URL: http://localhost:8005/teste_idealizza/listaAlunosRESTFulByCPF
+MÉTODO: POST
+INPUT: cpf_aluno
+EXEMPLO RETORNO:
+{
+	"alunos": {
+		"id": "3",
+		"id_dados": "3",
+		"nome": "teste",
+		"data_nascimento": "",
+		"cpf": "456.111.332-97",
+		"id_cobranca": "3",
+		"logradouro": "redfdg",
+		"numero": "23",
+		"bairro": "ffdsfsdfs",
+		"cidade": "3423",
+		"cep": "43243-242",
+		"telefone": "(99) 99999-9999",
+		"id_idioma": "1",
+		"nome_idioma": "Inglês",
+		"id_status": "3",
+		"codigo_status": "A",
+		"nome_status": "Ativo",
+		"id_estado": "21",
+		"nome_estado": "Espírito Santo"
+	}
+}

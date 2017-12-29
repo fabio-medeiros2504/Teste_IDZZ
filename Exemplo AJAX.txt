@@ -1,0 +1,41 @@
+function doPostDate(data, tipo){            
+	var acao = "";
+	
+	if (tipo == 'S'){
+		acao = "liberar";
+	}else{
+		acao = "bloquear";
+	}
+	swal({
+	  title: "Liberação",
+	  text: "Deseja realmente " + acao + " todos os jogos para esta data?",
+	  type: "info",
+	  showCancelButton: true,
+	  confirmButtonText: "Sim",
+	  cancelButtonText: "Não",
+	  closeOnConfirm: true
+	},
+	function(){      
+	   $.ajax({ 
+			url: "<?php echo site_url('liberarPorData')?>",
+			data: {data: data, 
+				   tipo: tipo},
+			type: 'post',
+			success: function(msg){
+				var data_de = $("#datepicker_de").val();
+				var data_ate = $("#datepicker_ate").val();
+
+				$.ajax({ 
+						url: "<?php echo site_url('filtroTabelaJogos')?>",                        
+						data: {data_de: data_de, 
+							   data_ate: data_ate},
+						type: 'post',
+						success: function(msg){
+							$("#body_tabela_jogos").html(msg);   
+							$("#table_tabela_jogos").footable({forceRefresh:true});
+						}                        
+				});
+			}                        
+		});
+	});                
+}
